@@ -1,0 +1,50 @@
+.navHead {
+  float: right; 
+  margin-right:5px;
+}
+.navHead ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width:100%;
+}
+.navHead li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+.navHead a {
+  color:#fff;
+}
+.navHead a:hover {
+  color: red;
+  transition: all 1s;
+}
+.navHead li:hover {
+  color: red;
+  transition: all 1s;
+}
+.navHead li:after {
+  position: absolute;
+  margin-left:50%;
+  content: "";
+  width: 0;
+  height: 3.5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #b00000;
+  transition: all 1s;
+}
+.navHead li:hover:after {
+  width: 100%;
+  margin-left:0px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+}

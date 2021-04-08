@@ -1,0 +1,6 @@
+CREATE DATABASE bgspl;
+
+CREATE TABLE images(
+  id SERIAL PRIMARY KEY,
+  link VARCHAR(100)
+);

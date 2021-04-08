@@ -1,0 +1,22 @@
+.mainSliderOne .slick-slide {
+    width:100%;
+    height: calc(100vh - 45px);
+    overflow: hidden;
+    min-width:950px;
+    background-position: top center;
+    background-image: url(../../img/Sitelogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainSliderOne .slick-slide img {
+    width:100%;
+}
+.mainSliderOne .slick-dots {
+    bottom: 50px;
+    z-index:98;
+    color:blue;
+}
+.mainSliderOne .slick-dots li.slick-active button:before,
+.mainSliderOne .slick-dots li button:before {
+    color:blue;
+}

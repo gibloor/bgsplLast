@@ -1,0 +1,26 @@
+.langChange {
+  cursor: pointer;
+  position: absolute;
+  padding: 10px;
+  z-index: 110;
+}
+.langChange:hover .listLang {
+  display: block;
+}
+
+.listLang {
+  display: none;
+  z-index: 111;
+}
+.listLang ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+  border-radius: 5%;
+}
+.listLang li {
+  display: inline-block;
+  height:100%;
+  padding:10px;
+}

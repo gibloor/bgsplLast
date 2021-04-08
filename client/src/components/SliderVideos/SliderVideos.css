@@ -1,0 +1,21 @@
+.sliderVideos .slick-slide {
+    width:300px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.sliderVideos .slick-dots {
+    bottom: 10px;
+    z-index:999999;
+    color:blue;
+}
+.sliderVideos .slick-dots li.slick-active button:before,
+.sliderVideos .slick-dots li button:before{
+    color:blue;
+}
+.videoAtSlider {
+    width:100%;
+}
+.videoAtSlider video {
+    width:100%;
+}
